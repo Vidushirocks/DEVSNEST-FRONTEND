@@ -3,7 +3,7 @@
        <title>Letter for permission</title>
     </head>
   <body>
-        <h1 style="text-align: center;">Sample letter to Dean</h1><hr><br>
+        <h1 style="text-align: center;">Letter to Dean</h1><hr><br>
         <b>To,<br>
         The Dean,<br>
         KIET GROUP OF INSTITUTIONS,<br>
@@ -11,9 +11,9 @@
 
         June 16,2021<br><br>
 
-        Subject: Request for Permission to Attend the devsnest code camp</b><br><br>
+        Subject: Request for Permission to Attend the Devsnest Code Camp<br><br>
 
-        Respected Sir,<br><br>
+        Respected Sir,</b><br>
 
         <p>I, Vidushi Bhatnagar from department of computer science, second year section B, would like to request you to grant me a permission for attending camp organized for coading.</p>
 
@@ -26,8 +26,8 @@
         Thank you for your consideration.<br><br>
 
         <b>Yours Sincerely,<br>
-             Vidushi Bhatnagar<br>
-             B.tech-CO, 2nd year<br>
-             Enrollment Number: 1900290120127</b><br>
+           Vidushi Bhatnagar<br>
+           B.tech-CO, 2nd year<br>
+           Enrollment Number: 1900290120127</b><br>
 </body>
 </html>
