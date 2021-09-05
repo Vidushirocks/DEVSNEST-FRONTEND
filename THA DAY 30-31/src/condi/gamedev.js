@@ -1,141 +1,141 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./cour.css";
-import Row from './row';
-import Card from './card';
+import Row from "./row";
+import Card from "./card";
 
-const Android  = () => {
+const GameDev  = () => {
     const cards = [
         {
             id: Math.random()*10,
-            src:"https://courses.javacodegeeks.com/wp-content/uploads/2020/02/1625800_2ffc_5-300x300.jpg",
-            title: "Android Java Masterclass",
-            desc: "Improve your career options by learning Android app Development. Master Android Studio and build your first app.",
+            src:"https://source.unsplash.com/1600x900/?onlinegame,videogame",
+            title: "The Game Development",
+            desc: "The only course you need to learn game development - Valorant and More!",
             price: "₹385",
             cutprice:"₹1,400",
             rating: "★★★★★",
-            view: "https://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://www.slashgear.com/wp-content/uploads/2011/01/android_s2-hexcode_pre.jpg",
-            title: "The Complete Android 10",
-            desc: " Learn Android Development From Beginner to Advanced Developer. Build Apps like Trello and 7Min Workout.",
+            src:"https://source.unsplash.com/1600x900/?gaming,laptop,online",
+            title: "Video Game Optimization",
+            desc: "The modern JavaScript course for everyone! Master JavaScript with projects and theory!",
             price: "₹499",
-            cutprice:"₹1,500",
+            cutprice:"₹1,200",
             rating: "★★★★☆",
-            view: "https://www.udemy.com/course/android-kotlin-developer/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://cdn.eduonix.com/assets/images/header_img/2020062508133511994.jpg",
-            title: "Android Multithreading Class",
-            desc: "Complete guide to multithreading in Android. From fundamentals to Thread Pools, RxJava and Kotlin.",
+            src: "https://source.unsplash.com/1600x900/?games,gaming,coding",
+            title: "C# Unity Game Developer 2D",
+            desc: "Learn Unity in C# & Code Your First Seven 2D Video Games for Web, Mac & PC.",
             price: "₹786",
             cutprice:"₹1,999",
             rating: "★★★★★",
-            view: "https://www.udemy.com/course/android-multithreading/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://media.onlinefreecourse.net/udemy/2018/08/26061733/cPNPjQ.jpg",
-            title: "The Mobile Development",
-            desc: "In this course, you'll learn Android Development and get to build your own Android R apps by using Java..",
+            src:"https://source.unsplash.com/1600x900/?musical,games",
+            title: "Unreal Engine C++ Developer",
+            desc: "Create your video game in collaboration with Epic Games. Code Your first 5 3D games",
             price: "₹450",
-            cutprice:"₹1,599",
+            cutprice:"₹1,200",
             rating: "★★★☆☆",
-            view: "https://www.udemy.com/course/java-android-complete-guide/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://digitalmediaglobe.com/wp-content/uploads/2017/04/Udemy-Android-Course-Review.jpg",
-            title: "Android App Development",
-            desc: " Android App Development for complete beginners, make beautiful apps, get a job , Java AND Kotlin!",
+            src:"https://source.unsplash.com/1600x900/?blockchain,videogame",
+            title: "RPG Core Combat Creator",
+            desc: "Learn Intermediate Unity C# Coding and advanced game design. Balance the player and enemy stats!",
             price: "₹799",
-            cutprice:"₹2,999",
+            cutprice:"₹1,999",
             rating: "★★★★★",
-            view: "https://www.udemy.com/course/the-complete-android-developer-bootcamp/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://www.educative.io/v2api/collection/6100126873419776/6055343571337216/image/4657441726791680",
-            title: "The Comprehensive 2021",
-            desc: "Master Modern Android API's: ROOM Database, ML Kit Face Recognition, FirebaseMaps and Android Studio",
+            src:"https://source.unsplash.com/1600x900/?game,software",
+            title: "Unreal Engine 4",
+            desc: "learn the Unreal Editor, master the gameplay framework, and use Blueprint to program.",
             price: "₹459",
-            cutprice:"₹1,499",
+            cutprice:"₹1,600",
             rating: "★★★★☆",
-            view: "https://www.udemy.com/course/android-development-java-android-studio-masterclass/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://www.spaceotechnologies.com/wp-content/uploads/2020/12/android_app_development_course_for_beginners1.png",
-            title: "The Complete Android Kotlin",
-            desc: "Build online games, and apps for Android Q, like Pokémon , twitter,Tic Tac Toe, and notepad using Kotlin",
-            price: "500",
-            cutprice:"₹2,000",
+            src:"https://source.unsplash.com/1600x900/?games,mobile,archery",
+            title: "Master Unity : Video Games",
+            desc: "Learn How To Plan, Design, Create And Publish Your Games On Any Platform Using Unity Game Engine",
+            price: "₹500",
+            cutprice:"₹1,670",
             rating: "★★★★★",
-            view: "https://www.udemy.com/course/the-complete-kotlin-developer-course/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://udemydownload.com/wp-content/uploads/2021/04/Flutter-Firebase-Build-a-Complete-App-for-iOS-Android-390x220.jpg",
-            title: "Android App Development",
-            desc: " Learn Kotlin Android App Development And Become an Android Developer. Incl. Kotlin Tutorial and Android Tutorial.",
+            src:"https://source.unsplash.com/1600x900/?videogame,mobile",
+            title: "Blender Character v2.0",
+            desc: "Learn How To Plan, Design, Create And Publish Your Games On Any Platform Using Unity Game Engine",
             price: "₹899",
-            cutprice:"₹3,120",
+            cutprice:"₹2,999",
             rating: "★★★★☆",
-            view: "https://www.udemy.com/course/android-oreo-kotlin-app-masterclass/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://miro.medium.com/max/966/1*ZQJ7-0G48FRy72VJ77hrfA.png",
-            title: "The Android 11 Jetpack",
-            desc: "Android Development with Jetpack, MVVM Clean Architecture, Compose, UnitTesting, Dagger/Hilt, Retrofit.",
+            src:"https://source.unsplash.com/1600x900/?ouija",
+            title: "Unity & Game Fundamentals",
+            desc: "quickly and easily navigate around your 3D scene as well as import, create and manipulate 3D objects.",
             price: "₹385",
-            cutprice:"₹1,800",
+            cutprice:"₹1,400",
             rating: "★★★☆☆",
-            view: "https://www.udemy.com/course/android-architecture-componentsmvvm-with-dagger-retrofit/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://i0.wp.com/freecoursewebsite.com/wp-content/uploads/2020/09/Download-Android-App-Development-Masterclass-using-Kotlin-2020.jpg?fit=521%2C305&ssl=1&resize=350%2C200",
-            title: "Kotlin for Android Masterclass",
-            desc: "Learn Kotlin Coroutines in depth and practice advanced Coroutines use cases in Android application",
+            src:"https://source.unsplash.com/1600x900/?valorant",
+            title: "VALORANT: The Gameplay",
+            desc: "All about Valorant! Master the mechanics of maps, tactics, directions & gun control methods.",
             price: "₹880",
-            cutprice:"₹2,000",
+            cutprice:"₹2,510",
             rating: "★★★★★",
-            view: "https://www.udemy.com/course/kotlin-coroutines-in-android/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"https://freecourseudemy.com/wp-content/uploads/2020/01/The-Complete-Android-Kotlin-Developer-Course-1.jpg",
-            title: "Android Architecture Masterclass",
-            desc: " Embrace clean design and architecture in Android apps. Employ Dependency Injection of Concerns principle",
+            src:"https://source.unsplash.com/1600x900/?game,chess",
+            title: "PUBG Devt For Gamers",
+            desc: "Build a massive E-commerce app with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase",
             price: "₹400",
-            cutprice:"₹1,280",
+            cutprice:"₹1,400",
             rating: "★★★☆☆",
-            view: "https://www.udemy.com/course/android-architecture/"
+            view: ""
             
         },
         {
             id: Math.random()*10,
-            src:"http://www.cromacampus.com/wp-content/uploads/2017/08/android-training-croma-campus.jpg",
-            title: "Make a Freaking Android App",
-            desc: "Make apps for Android M - Marshmallow, using Android Studio for Mac or Windows.",
+            src:"https://source.unsplash.com/1600x900/?game,ludo",
+            title: "Advanced Behaviour Trees",
+            desc: " Learn use of advanced behaviour trees to define the actions of non-player characters.",
             price: "₹567",
-            cutprice:"₹1,900",
+            cutprice:"₹1,800",
             rating: "★★★★☆",
-            view: "https://www.udemy.com/course/how-to-make-a-freaking-android-app/"
+            view: ""
             
         },
         
@@ -176,9 +176,9 @@ const Android  = () => {
     }
   
   return (
-      <div className="App">
-         <h1 class="heading">
-        <span>Courses On Andriod Development</span>
+    <div className="App">
+      <h1 class="heading">
+        <span>Courses On Game Development</span>
       </h1>
       <div id="cards_landscape_wrap-2">
         <div className="container">
@@ -188,4 +188,4 @@ const Android  = () => {
     </div>
   );
 };
-export default Android;
+export default GameDev;
